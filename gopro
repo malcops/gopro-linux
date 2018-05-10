@@ -72,4 +72,5 @@ echo "Checking dependencies..."
 hash ffmpeg 2> /dev/null || { echo >&2 "ffmpeg ..... Not installed!";}
 hash mogrify 2> /dev/null || { echo >&2 "mogrify ..... Not installed!";}
 hash mencoder 2> /dev/null || { echo >&2 "mencoder ..... Not installed!";}
+echo "Finished."
 $@
